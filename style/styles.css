@@ -137,4 +137,42 @@ textarea {
 
 .visualization{
     margin-left: 3.9rem;
+    margin-top: 10px;
+    position: relative;
+}
+
+.sub-title {
+    padding: 1rem 0rem 0rem 4rem;
+    font-size: 14px;
+    line-height: 1rem;
+    position: relative;
+    height: 110px;
+    width: 600px;
+
+
+}   
+
+.aside{
+    display: flex;
+    position: relative;
+    
+}
+
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    position: absolute;
+    top: 6rem;
+    align-items: flex-start;
+    right: 6rem;
+    padding-bottom: 4rem;
+    max-width: 300px;
+    
+   
+}
+
+
+.sidebar div{
+    padding: 12px;
 }
